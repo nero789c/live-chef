@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+.home-content{
+    background-color: black;
+}
+
+
+
+.list{
+    column-count: 3;
+    margin: 0px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover .card-image {
+    transform: scale(1.1); /* Zoom-in effect on hover */
+}
+.image-card:hover{
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-card:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+    transition: transform 0.3s ease-in-out;
+
+}
+.overlay-content{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 20px 20px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.overlay-content h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.overlay-content p {
+    font-size: 18px; /* Increase size for readability */
+    margin: 0;
+    line-height: 1.5; /* Add line spacing for better readability */
+    color: #f0f0f0; /* Use a lighter color for contrast */
+    text-align: left; /* Center-align the paragraph */
+    word-wrap: normal; /* Ensure long words wrap */
+    white-space: normal; /* Allow text to wrap to the next line */
+    padding-bottom: 20px;/* Ensure long words don't break the layout */
+
+}
+
+.info-container{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.info-container h1{
+    color: green;
+    font-size: 23px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.info-container span{
+    color: white;
+    font-size: 23px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.info-image-container {
+    padding: 80px 40px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+.info-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+.info-image-details{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-top: 40px;
+}
+h1.dish-name{
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-weight: bold;
+}
+
+.dish-details{
+    position: absolute;
+    top: 15%;
+    line-height: 25px;
+    padding-right: 20px;
+
+
+}
+.dish-details h1 p {
+    margin-top: 10px;
+
+}
+.dish-details h1{
+    font-weight: bold;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+th, td {
+    border: none;
+    border-bottom: 1px solid #ddd; /* Add only bottom border */
+    color: white;
+    font-family: "Roboto", serif;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+th {
+    background-color: black; /* Light gray background for headers */
+    font-weight: bold; /* Make header text bold */
+    color: green;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .info-image {
+        max-width: 50%; /* Allow the image to take more width on smaller screens */
+        height: auto;  /* Adjust height for responsiveness */
+    }
+}
+
+
+
+
+

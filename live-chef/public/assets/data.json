@@ -1,0 +1,151 @@
+[
+  {
+    "ownerName": "John Doe",
+    "dishName": "Korean Chicken with Rice",
+    "imageURL": "/assets/food_1.jpg",
+    "description": "A Korean meal featuring rice, chicken, and vegetables offers a harmonious blend of flavors, often seasoned with soy sauce, garlic, and sesame oil. Served as a stir-fry or in a bibimbap style, it's a vibrant, wholesome dish with a balance of savory and fresh notes.",
+    "linkTo": "/profile/john",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 1,
+        "unit": "kilo"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 0.5,
+        "unit": "kilo"
+      }
+    ]
+  },
+  {
+    "ownerName": "André Lemaître",
+    "dishName": "Steak Meat",
+    "imageURL": "/assets/food_2.jpg",
+    "description": "Indulge in Chef André's signature Charcoal-Seared Ribeye, a masterpiece of culinary art. This prime cut of aged beef is marinated with a delicate blend of garlic, rosemary, and cracked black pepper, then seared over an open flame to achieve a perfect crust. Cooked to your desired doneness, the steak is served with a drizzle of smoky bourbon glaze and a side of roasted garlic mashed potatoes. Each bite promises a symphony of flavor—succulent, tender, and irresistibly savory.",
+    "linkTo": "/profile/jane",
+    "ingredients": [
+      {
+        "ingredient": "mixed greens",
+        "amount": 100,
+        "unit": "grams"
+      },
+      {
+        "ingredient": "olives",
+        "amount": 50,
+        "unit": "grams"
+      },
+      {
+        "ingredient": "feta cheese",
+        "amount": 100,
+        "unit": "grams"
+      },
+      {
+        "ingredient": "lemon juice",
+        "amount": 2,
+        "unit": "tablespoons"
+      }
+    ]
+  },
+  {
+    "ownerName": "John Doe",
+    "dishName": "Chicken Sandwich with Cheese",
+    "imageURL": "/assets/food_3.jpg",
+    "description": "A Korean meal featuring rice, chicken, and vegetables offers a harmonious blend of flavors, often seasoned with soy sauce, garlic, and sesame oil. Served as a stir-fry or in a bibimbap style, it's a vibrant, wholesome dish with a balance of savory and fresh notes.",
+    "linkTo": "/profile/john",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "Cheese",
+        "amount": 1,
+        "unit": "Peace"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 0.5,
+        "unit": "kilo"
+      }
+    ]
+  },
+  {
+    "ownerName": "John Doe",
+    "dishName": "Meat with Cream",
+    "imageURL": "/assets/food_4.jpg",
+    "description": "A Korean meal featuring rice, chicken, and vegetables offers a harmonious blend of flavors, often seasoned with soy sauce, garlic, and sesame oil. Served as a stir-fry or in a bibimbap style, it's a vibrant, wholesome dish with a balance of savory and fresh notes.",
+    "linkTo": "/profile/john",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 1,
+        "unit": "kilo"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 0.5,
+        "unit": "kilo"
+      }
+    ]
+  },
+  {
+    "ownerName": "John Doe",
+    "dishName": "Soup with sourCream",
+    "imageURL": "/assets/food_5.jpg",
+    "description": "A Korean meal featuring rice, chicken, and vegetables offers a harmonious blend of flavors, often seasoned with soy sauce, garlic, and sesame oil. Served as a stir-fry or in a bibimbap style, it's a vibrant, wholesome dish with a balance of savory and fresh notes.",
+    "linkTo": "/profile/john",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 1,
+        "unit": "kilo"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 0.5,
+        "unit": "kilo"
+      }
+    ]
+  },
+  {
+    "ownerName": "John Doe",
+    "dishName": "Korean Chicken with Rice",
+    "imageURL": "/assets/food_6.jpg",
+    "description": "A Korean meal featuring rice, chicken, and vegetables offers a harmonious blend of flavors, often seasoned with soy sauce, garlic, and sesame oil. Served as a stir-fry or in a bibimbap style, it's a vibrant, wholesome dish with a balance of savory and fresh notes.",
+    "linkTo": "/profile/john",
+    "ingredients": [
+      {
+        "ingredient": "tomato",
+        "amount": 2,
+        "unit": "piece"
+      },
+      {
+        "ingredient": "rice",
+        "amount": 1,
+        "unit": "kilo"
+      },
+      {
+        "ingredient": "chicken",
+        "amount": 0.5,
+        "unit": "kilo"
+      }
+    ]
+  }
+]

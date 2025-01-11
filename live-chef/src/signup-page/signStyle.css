@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner_signup::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../assets/food.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+}
+
+.welcoming-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+
+}
+.welcoming-msg h2{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.welcoming-msg p{
+    font-size: 25px;
+}
+
+.form-container {
+    width: 40%;
+    height: 40%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7));
+    padding: 20px 30px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.flex-divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.signup-title {
+    margin-top: 30px;
+}
+
+.form-container-group {
+    margin-top: 3%;
+}
+
+.form-container-group input {
+    font-size: 20px;
+    width: 150%;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+
+.form-container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-btn {
+    font-size: 15px;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    margin-top: 4%;
+
+
+}
+
+#btn_1 {
+    margin-top: 10%;
+
+}
+.form-btn:hover {
+    background-color: green;
+    color: white;
+
+}
+
+
